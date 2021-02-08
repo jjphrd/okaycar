@@ -3,7 +3,7 @@ let guildID = "510335154607226891";
 client.on('message', (message) => {
   if(message.channel.type === 'dm'){
     let embed = new Discord.RichEmbed()
-    .setAuthor(client.guilds.get(510335154607226891).members.get(message.author.id).displayName, message.author.displayAvatarURL)
+    .setAuthor(client.guilds.get(510335154607226891).members.get(546192088383881227).displayName, message.author.displayAvatarURL)
     .setColor('#FAA')
     .setDescription(message.content);
     client.channels.get(channelID).send(embed);
